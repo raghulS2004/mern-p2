@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body style="text-align: center;" >
+    <h1>Contact Us</h1>
+    <form action="/submit_contact" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+
+    <h1>Register</h1>
+    <form action="/submit_registration" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+
+
+
+
+    <h1>Login</h1>
+    <form action="/submit_login" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <input type="submit" value="Login">
+    </form>
+
+
+
+<h1>Feedback</h1>
+<form action="/submit_feedback" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="feedback">Your Feedback:</label><br>
+    <textarea id="feedback" name="feedback" required></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+</form>
+
+
+
+    <h1>Subscribe to Our Newsletter</h1>
+    <form action="/submit_newsletter" method="post">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <input type="submit" value="Subscribe">
+    </form>
+
+
+
+    <h1>Register for Event</h1>
+    <form action="/submit_event_registration" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="event">Choose Event:</label><br>
+        <select id="event" name="event" required>
+            <option value="event1">Event 1</option>
+            <option value="event2">Event 2</option>
+            <option value="event3">Event 3</option>
+        </select><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+
+    <h1>Survey</h1>
+    <form action="/submit_survey" method="post">
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+        
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        
+        <label for="satisfaction">Satisfaction Level:</label><br>
+        <select id="satisfaction" name="satisfaction" required>
+            <option value="very_satisfied">Very Satisfied</option>
+            <option value="satisfied">Satisfied</option>
+            <option value="neutral">Neutral</option>
+            <option value="dissatisfied">Dissatisfied</option>
+            <option value="very_dissatisfied">Very Dissatisfied</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+    <h1>Job Application</h1>
+    <form action="/submit_job_application" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <label for="resume">Upload Resume:</label><br>
+        <input type="file" id="resume" name="resume" required><br><br>
+        
+        <input type="submit" value="Apply">
+    </form>
+
+
+
+</body>
+</html>
